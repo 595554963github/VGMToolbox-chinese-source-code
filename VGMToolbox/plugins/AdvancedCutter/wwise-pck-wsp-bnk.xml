@@ -15,7 +15,7 @@
       <CutSizeOffsetSize>4</CutSizeOffsetSize>
       <CutSizeOffsetEndianess>little</CutSizeOffsetEndianess>      
     </CutParameters>
-    <AddExtraBytes>false</AddExtraBytes>
-    <AddExtraByteSize />
+    <AddExtraBytes>true</AddExtraBytes>
+    <AddExtraByteSize>8</AddExtraByteSize>
   </SearchParameters>
 </OffsetFinderTemplate>
