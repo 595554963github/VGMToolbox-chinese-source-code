@@ -377,7 +377,7 @@
             this.cbGenerateTitleFromFilename.Name = "cbGenerateTitleFromFilename";
             this.cbGenerateTitleFromFilename.Size = new System.Drawing.Size(163, 17);
             this.cbGenerateTitleFromFilename.TabIndex = 19;
-            this.cbGenerateTitleFromFilename.Text = "Generate Title from FileName";
+            this.cbGenerateTitleFromFilename.Text = "从文件吗生成标题";
             this.cbGenerateTitleFromFilename.UseVisualStyleBackColor = true;
             this.cbGenerateTitleFromFilename.CheckedChanged += new System.EventHandler(this.cbGenerateTitleFromFilename_CheckedChanged);
             // 
