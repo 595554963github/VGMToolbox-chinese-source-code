@@ -86,7 +86,7 @@ namespace VGMToolbox.forms
 
             this.selectedLabel = NO_LABEL_SELECTED;
 
-            this.lbFiles.Items.Add("<File Box>");
+            this.lbFiles.Items.Add("<文件盒>");
         }
 
         #region INITIALIZE FUNCTIONS
@@ -1037,12 +1037,12 @@ namespace VGMToolbox.forms
                             }
                             else
                             {
-                                MessageBox.Show("Cannot convert bytes to samples for the following formats: MPEG, XMA, XMA2, FFMPEG.", "Error");
+                                MessageBox.Show("无法将字节转换为以下格式的样本: MPEG, XMA, XMA2, FFMPEG.", "错误");
                             }
                         }
                         else
                         {
-                            MessageBox.Show("Cannot convert bytes to samples: Please enter values for Interleave and Channels.", "Error");
+                            MessageBox.Show("无法将字节转换为样本:请输入交错和通道的值.", "错误");
                         }
                     }
                 }
